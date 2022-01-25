@@ -1,0 +1,67 @@
+/* ===============   banner starts   =============== */ 
+#banner{
+    height: 100vh;
+    background: linear-gradient(180deg, #000000 0%, #1C0038 100%);
+
+    .mcu{
+        h3{
+            color: #1e1124;
+
+            font-family: $ff2;
+            font-weight: 700;
+            font-size: 280px;
+            
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            .ls{
+                letter-spacing: -27px;
+            }
+            .l{
+                padding-left: 8px;
+            }
+
+
+        }
+    }
+
+    .banner-text{
+        position: absolute;
+        top: 260px;
+        left: 0;
+
+        h2{
+            color: #fff;
+            font-family: $ff1;
+            font-size: 38px;
+            
+        }
+        
+        h1{
+            color: #934FB8;
+            font-family: $ff1;
+            font-size: 90px;
+            margin-left: -5px;
+            padding-bottom: 25px;
+            font-weight: 800;
+        }
+        p{
+            color: #BDBDBD;
+            font-family: $ff1;
+            font-size: 18px;
+            
+        }
+    }
+    .banner-img{
+        img{
+            width: 581px;
+            position: absolute;
+            top: 96px;
+            right: 0;
+
+           
+        }
+    }
+}
+/* ===============   banner   ends   =============== */ 
