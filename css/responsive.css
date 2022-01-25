@@ -1,0 +1,94 @@
+/* ===============   extra small device starts   ================ */
+
+@media (max-width: 575px){
+
+    #banner .mcu h3{
+        font-size: 115px;
+    }
+    #banner .mcu h3 .ls{
+        letter-spacing: -15px;
+    }
+    #banner .mcu h3 .l{
+        padding-left: 7px;
+    }
+    #banner .banner-text{
+        top: 160px;
+        left: 20px;
+        text-align: center;
+    }
+    #banner .banner-text h2{
+        font-size: 24px;
+    }
+    #banner .banner-text h1{
+        font-size: 38px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+    }
+    #banner .banner-text p{
+        font-size: 16px;
+    }
+    #banner .banner-img img{
+        width: 400px;
+        right: 0;
+        top: 261px;        
+    }
+}
+
+/* ===============   extra small device   ends   ================ */
+
+/* ===============   small device starts   ================ */
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    #banner .mcu h3{
+        font-size: 200px;
+    }
+    #banner .mcu h3 .l{
+        padding-left: 12px;
+    }
+    #banner .banner-text h2{
+        font-size: 26px;
+    }
+    #banner .banner-text h1{
+        font-size: 42px;
+        padding-bottom: 15px;
+
+    }
+    #banner .banner-text p{
+        font-size: 16px;
+    }
+    #banner .banner-img img{
+        width: 400px;
+        right: -16px;
+        top: 183px;        
+    }
+}
+
+/* ===============   small device   ends   ================ */
+
+/* ===============   medium device starts   ================ */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    #banner .mcu h3{
+        font-size: 230px;
+    }
+    #banner .mcu h3 .l{
+        padding-left: 10px;
+    }
+    #banner .banner-text h2{
+        font-size: 30px;
+    }
+    #banner .banner-text h1{
+        font-size: 58px;
+        padding-bottom: 15px;
+
+    }
+    #banner .banner-img img{
+        width: 491px;
+        right: -22px;
+    }
+}
+
+/* ===============   medium device   ends   ================ */
